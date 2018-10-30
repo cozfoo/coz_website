@@ -1,0 +1,103 @@
+A:link { color : #C7C7FF; text-decoration:none}
+A:visited { color : #C7C7FF; text-decoration:none}
+A:active { color : #C7C7FF; text-decoration:none}
+A:hover {color:#DBDBFF; text-decoration:none}
+
+A.admin:link { color : #0A7C1F; text-decoration:none}
+A.admin:visited { color : #0A7C1F; text-decoration:none}
+A.admin:active { color : #0A7C1F; text-decoration:none}
+A.admin:hover {color:#CAAB7E; text-decoration:none}
+
+  .ss8-lipstick-bold {	
+    font-size : 8pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #C88489
+}
+  .ss10-lipstick-bold {	
+    font-size : 10pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #C88489
+}
+  .ss8-dkgrn-bold-old {	
+    font-size : 8pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #065016
+}
+  .ss9-dkgrn-bold {	
+    font-size : 8pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #0A7C1F
+}
+  .ss8-dkgrn-bold {	
+    font-size : 9pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #0A7C1F
+}
+  .ss11-dkgrn-bold {	
+    font-size : 11pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #0A7C1F
+}
+  .ss10-dkgrn-bold {	
+    font-size : 10pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #0A7C1F
+}
+  .ss10-bold-dkblu {	
+    font-size : 10pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #000080
+}
+  .ss10-bold-ltblu {	
+    font-size : 10pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #0000FF
+}
+  .ss10-norm {	
+    font-size : 10pt;
+	font-family : Arial,Helvetica;
+	font-weight : norm;
+	color : #000000
+}
+  .ss11-bold {	
+    font-size : 11pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #BD945A;
+	text-decoration : none;
+}
+  .ss8-bold {	
+    font-size : 8pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #BD945A;
+	text-decoration : none;
+}
+  .ss10-bold {	
+    font-size : 10pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #BD945A;
+	text-decoration : none;
+}
+  .ss10-bluemoon-bold {	
+    font-size : 10pt;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #C5C5ED
+}
+  .ss10-blue2moon-bold {
+    font-size : 15px;
+	font-family : Arial,Helvetica;
+	font-weight : bold;
+	color : #AAA9D1
+}

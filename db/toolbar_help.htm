@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>HTML entry instructions</title>
+      <link rel="stylesheet" href="admin.css" />
+</head>
+
+<body>
+
+<table align="center" width="500" cellpadding="10" class="sans_blk14"><tr><td><b>The tools below the text area enter various html and psuedo-html before and after the selected text in the textarea.</b><br><br>
+<b>&bull;</b> enters a bullet at the cursor position<br><br>
+<b>B:</b> enters "bold" tags arround selected text to make them appear in bold text<br><br>
+<b><em>I:</em></b> enters "italics" tags arround selected text to make them appear italicized<br><br>
+<b>Link:</b> enters "anchor" tags arround selected text to create a link. Options are given to make the link either a link to a page or an email link<br><br>
+For links to other pages:<br>
+target="_blank" -- opens in a new window<br>
+target="_top" -- opens in same window<br>
+<br><br>
+<b>List:</b> creates an html "list" with selected lines of text.  Lines starting with "###DISC###" will have a circular ("disc") bullet. Other lines may be indented with normal spaces<br><br>
+List Example:<br><br>
+###LIST,START<br>
+###DISC###<b>Consumer Products & Retail</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apparel and Footwear<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beverage<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Consumer Durables<br>
+<br>
+###DISC###<b>Life Sciences</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pharmaceuticals<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biotechnology <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medical Devices<br>
+###LIST,END<br><br>
+<br>
+<b>Table:</b> creates a tabular layout for selected lines. the lines betwee tne table psuedo-tags entered by this tool must have "cells" separated by the vertical bar (|) character<br><br>
+Table Example:<br><br>
+###TABLE,START<br>
+text|text<br>
+text|text<br>
+###TABLE,END<br>
+...Note the 'vertical bar' ( | ) separating the table cells<br>
+<br><br>
+<b>HTML:</b> puts html psuedo-tags around selected text. This text will be sent directly to the browser and may be any HTML<br><br></td></tr></table>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<HTML><HEAD><TITLE>theDrPatShow Database Administration</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+var del_action;
+function deleteChk() {
+    if (del_action == "delete"){
+      for (i=0; i<del_form.elements.length; i++){
+        if (del_form.elements[i].name == "del_chk[]") {
+          if (del_form.elements[i].checked) {
+            if (confirm("Delete these records?"))  {
+    	      return true;
+    	    }
+    	    else return false;
+          }
+        }
+      }
+    }
+      else if (del_action == "compile_page"){
+      del_form.action="compile_page.php";
+      for (i=0; i<del_form.elements.length; i++){
+        if (del_form.elements[i].name == "del_chk[]") {
+          if (del_form.elements[i].checked) {
+            if (confirm("Compile selected pages?"))  {
+    	      return true;
+    	    }
+    	    else return false;
+          }
+        }
+      }
+    }
+  alert("nothing checked");
+  return false;
+}
+function selAll() {
+    for (i=0; i<del_form.elements.length; i++){
+        if (del_form.elements[i].name == "del_chk[]") {
+            del_form.elements[i].checked = true;
+        }
+    }
+}</SCRIPT><LINK REL=STYLESHEET TYPE=text/css HREF=admin-styles.css>
+</HEAD>
+<BODY bgcolor="#000000" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+<table widthz="712" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#EEDFCD">
+  <tr>
+    <td bgcolor="#000000" width="224" valign="middle" class="ulcorner"><div align="center" class="header">theDrPatShow</div></td>
+    <td bgcolor="#000000" align="center" background="AdminCtr.gif"><img src="AdminLogo.jpg" width="264" height="84" /></td>
+    <td bgcolor="#000000" width="224" valign="middle" class="urcorner"><div align="center" class="header">Database Administration</div></td>
+  </tr>
+  <tr>
+    <td colspan="3"><p align="center" class="topnav"><strong><a href="admin.php">Admin
+            Home</a> | <a href="/" target="_blank">Website Homepage</a> | <a href="admin.php?m=logout">Logout</a></strong></p>
+	<div><img src="brownpixel.gif" width="100%" height="1" /></div>	
+    <p align="center" class="secheader">Categories</p>
+    <p align="center">Click header titles to sort by that column.</p><FORM NAME="del_form" action=delete_rec.php method=post ONSUBMIT="return(deleteChk());">
+<INPUT TYPE=hidden NAME=cfg VALUE=guest_sponsor_categories>
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor=#EEDFCD>
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+	<TABLE cellpadding=3 cellspacing=3 border=0 width=100% class=maintable bgcolor=#FFFFFF><TR><td nowrap CLASS=bodytext11 BGCOLOR=#BF966B align=center><A HREF="show_table.php?cfg=guest_sponsor_categories&cat=&per_sist=&start_rec=&order_by=cat_name" CLASS=topnav><B>Category</B></A></td>
+<td nowrap CLASS=bodytext11 BGCOLOR=#BF966B align=center><A HREF="show_table.php?cfg=guest_sponsor_categories&cat=&per_sist=&start_rec=&order_by=disp_ord" CLASS=topnav><B>Display Order</B></A></td>
+<td nowrap align=center CLASS=bodytext11 BGCOLOR=#BF966B><b>Edit</b></TD>
+</TR><TR bgcolor=#EEDFCD><TD CLASS=bodytext11 align=>Health & Wellness</TD><TD CLASS=bodytext11 align=>10</TD><TD  align=center CLASS=bodytext11><input name="editorder" type="button" id="editorder" onclick="parent.location='get_rec.php?ID=1&cfg=guest_sponsor_categories&per_sist='" value="Edit" /></input></TD>
+</TR><TR bgcolor=><TD CLASS=bodytext11 align=>Men</TD><TD CLASS=bodytext11 align=>20</TD><TD  align=center CLASS=bodytext11><input name="editorder" type="button" id="editorder" onclick="parent.location='get_rec.php?ID=2&cfg=guest_sponsor_categories&per_sist='" value="Edit" /></input></TD>
+</TR><TR bgcolor=#EEDFCD><TD CLASS=bodytext11 align=>Women & Children</TD><TD CLASS=bodytext11 align=>30</TD><TD  align=center CLASS=bodytext11><input name="editorder" type="button" id="editorder" onclick="parent.location='get_rec.php?ID=3&cfg=guest_sponsor_categories&per_sist='" value="Edit" /></input></TD>
+</TR><TR bgcolor=><TD CLASS=bodytext11 align=>Business</TD><TD CLASS=bodytext11 align=>40</TD><TD  align=center CLASS=bodytext11><input name="editorder" type="button" id="editorder" onclick="parent.location='get_rec.php?ID=4&cfg=guest_sponsor_categories&per_sist='" value="Edit" /></input></TD>
+</TR><TR bgcolor=#EEDFCD><TD CLASS=bodytext11 align=>Spirituality</TD><TD CLASS=bodytext11 align=>50</TD><TD  align=center CLASS=bodytext11><input name="editorder" type="button" id="editorder" onclick="parent.location='get_rec.php?ID=5&cfg=guest_sponsor_categories&per_sist='" value="Edit" /></input></TD>
+</TR><TR bgcolor=><TD CLASS=bodytext11 align=>Fiction</TD><TD CLASS=bodytext11 align=>60</TD><TD  align=center CLASS=bodytext11><input name="editorder" type="button" id="editorder" onclick="parent.location='get_rec.php?ID=6&cfg=guest_sponsor_categories&per_sist='" value="Edit" /></input></TD>
+</TR><TR bgcolor=#EEDFCD><TD CLASS=bodytext11 align=>Channeled / Mediums</TD><TD CLASS=bodytext11 align=>70</TD><TD  align=center CLASS=bodytext11><input name="editorder" type="button" id="editorder" onclick="parent.location='get_rec.php?ID=7&cfg=guest_sponsor_categories&per_sist='" value="Edit" /></input></TD>
+</TR>	<p>&nbsp;</p></TABLE>
+    
+    
+    </form>
+    <form action=new_item_form.php method=get>
+<p align="center">
+<INPUT TYPE=submit value="&nbsp; &nbsp; New &nbsp;&nbsp;">
+</INPUT>To add a new Category to Category database.
+</p>
+<INPUT TYPE=hidden NAME=cat VALUE=""><INPUT TYPE=hidden NAME=per_sist VALUE=""><INPUT TYPE=hidden NAME=cfg VALUE=guest_sponsor_categories>
+</form>
+    
+
+	</td><td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center" class=bodytext11></td>
+  </tr>
+</table>
+  </td>
+  </tr>
+  <tr><td colspan="3" align="center"><DIV CLASS=bodytext11><A HREF=admin.php CLASS=topnav>[ADMIN INDEX]</A><br><br><A HREF=/ CLASS=topnav>[HOME]</A></DIV></td></tr>
+  <tr>
+    <td><img src="AdminBL.gif" width="25" height="23" /></td><td></td><td align="right"><img src="AdminBR.gif" width="25" height="23" /></td>
+  </tr>
+</table>
+</body></html>

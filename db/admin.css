@@ -1,0 +1,161 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFF9D4;
+}
+
+.class     { color: white; font-size: 11px; line-height: 15px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+.class1      { color: #690; font-weight: bolder; font-size: 11px; line-height: 15px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 1px
+}
+
+a.nav:link { color: #000000; text-decoration: none; border: 0;
+}
+a.nav:active { color : #000000; text-decoration: none;
+}
+a.nav:visited { color: #000000; text-decoration: none; border: 0;
+}
+a.nav:hover { color: #777777; text-decoration: none; border: 0;
+}
+
+#a  { color: #cf0; text-decoration: none;
+}
+#a:hover { color: white; text-decoration: none;
+}
+
+.sans_tan16bold     {
+  color: #BBA183; font-size: 16px; font-family: Arial, Helvetica;  font-weight: bold;
+}
+.sans_tan20     {
+  color: #BBA183; font-size: 20px; font-family: Arial, Helvetica;;
+}
+.sans_white12    {
+  color: white; font-size: 12px; font-family: Arial, Helvetica; 
+}
+.sans_white12bold     {
+  color: white; font-size: 12px; font-family: Arial, Helvetica; font-weight: bold;
+}
+.sans_wht16bold     {
+  color: #FFFFFF; font-size: 16px; font-family: Arial, Helvetica;  font-weight: bold;
+}
+.sans_white10     {
+  color: white; font-size: 10px; font-family: Arial, Helvetica; 
+}
+.sans_white10bold     {
+  color: white; font-size: 10px; font-family: Arial, Helvetica; font-weight: bold;
+}
+.sans_blk10     {
+  color: #000000; font-size: 10px; font-family: Arial, Helvetica; 
+}
+.sans_blk10bold     {
+  color: #000000; font-size: 10px; font-family: Arial, Helvetica; font-weight: bold:
+}
+p     {
+  color: #000000; font-size: 14px; font-family: Arial, Helvetica; 
+}
+p a {
+	color: #000000;
+	text-decoration: underline;
+}
+p a:hover {
+	color: #66CCFF;
+	text-decoration: none;
+}
+
+.topnav     {
+  color: #000000; font-size: 12px; font-family: Arial, Helvetica; 
+}
+.topnav a {
+	color: #000000;
+	text-decoration: underline;
+}
+.topnav a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.sansblk12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.sansblk14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+.sansblk14 a {
+	color: #000000;
+	text-decoration: underline;
+}
+.sansblk14 a:hover {
+	color: #66CCFF;
+	text-decoration: none;
+}
+
+.alertbox {
+	background-color: #E9DA87;
+	padding: 10px;
+}
+
+.column_nav_norm {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight: norm;
+}
+.column_nav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+.column_nav a {
+	color: #000000;
+	text-decoration: underline;
+}
+.column_nav a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.sansblk16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+}
+
+#toolbar 	{	
+			margin: 0;
+			padding: 0;
+			width: 90px;
+			background: buttonface;
+			border-top: 1px solid buttonhighlight;
+			border-left: 1px solid buttonhighlight;
+			border-bottom: 1px solid buttonshadow;
+			border-right: 1px solid buttonshadow;
+			text-align:right;
+		  	}
+			
+.button 	{
+			background: buttonface; 
+			border: 1px solid buttonface;
+			margin: 1; 
+			}
+			
+.raised		{ 
+			border-top: 1px solid buttonhighlight;
+			border-left: 1px solid buttonhighlight;
+			border-bottom: 1px solid buttonshadow;
+			border-right: 1px solid buttonshadow;
+			background: buttonface;
+			margin: 1;
+			}
+			
+.pressed	{
+			border-top: 1px solid buttonshadow;
+			border-left: 1px solid buttonshadow;
+			border-bottom: 1px solid buttonhighlight;
+			border-right: 1px solid buttonhighlight;
+			background: buttonface;
+			margin: 1;
+			}

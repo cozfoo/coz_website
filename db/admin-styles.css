@@ -1,0 +1,110 @@
+body {
+	background-color: #000000;
+	margin: 0px;
+	padding: 0px;
+}
+.ulcorner {
+	background-image: url(AdminUL.gif);
+	background-repeat: no-repeat;
+}
+.urcorner {
+	background-image: url(AdminUR.gif);
+	background-repeat: no-repeat;
+}
+.header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #E3C8A1;
+}
+.topnav {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #663300;
+}
+.topnav a {
+	color: #663300;
+	text-decoration: underline;
+}
+.topnav a:hover {
+	text-decoration: none;
+}
+.secheader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #010C54;
+}
+.bodytext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.bodytext11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.title-row {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+.maintable {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	border: 1px solid #BF966B;
+}
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 16px;
+}
+a {
+	color: #663300;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+#toolbar 	{	
+			margin: 0;
+			padding: 0;
+			width: 410px;
+			background: buttonface;
+			background-color: #BF966B;
+			border-top: 1px solid buttonhighlight;
+			border-left: 1px solid buttonhighlight;
+			border-bottom: 1px solid buttonshadow;
+			border-right: 1px solid buttonshadow;
+			text-align:right;
+		  	}
+			
+.button 	{
+			background: buttonface; 
+			background-color: #ECE9D8;
+			border: 1px solid buttonface;
+			margin: 1; 
+			}
+			
+.raised		{ 
+			border-top: 1px solid buttonhighlight;
+			border-left: 1px solid buttonhighlight;
+			border-bottom: 1px solid buttonshadow;
+			border-right: 1px solid buttonshadow;
+			background: buttonface;
+			margin: 1;
+			}
+			
+.pressed	{
+			border-top: 1px solid buttonshadow;
+			border-left: 1px solid buttonshadow;
+			border-bottom: 1px solid buttonhighlight;
+			border-right: 1px solid buttonhighlight;
+			background: buttonface;
+			margin: 1;
+			}

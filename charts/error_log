@@ -1,0 +1,4 @@
+[18-Dec-2014 22:48:14 UTC] PHP Fatal error:  Call to undefined function import_request_variables() in /home/coz52motion/public_html/BMD/charts/index.php on line 2
+[18-Dec-2014 22:53:08 UTC] PHP Fatal error:  Call to undefined function import_request_variables() in /home/coz52motion/public_html/BMD/charts/index.php on line 2
+[18-Dec-2014 22:53:58 UTC] PHP Fatal error:  Call to undefined function import_request_variables() in /home/coz52motion/public_html/BMD/charts/index.php on line 2
+[18-Dec-2014 22:53:59 UTC] PHP Fatal error:  Call to undefined function import_request_variables() in /home/coz52motion/public_html/BMD/charts/index.php on line 2
